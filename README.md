@@ -266,7 +266,7 @@ done
 sum(rate(http_requests_total{route!="/metrics"}[1m])) by (route)
 ```
 
-![img.png](img.png)
+![img.png](docs/img.png)
 
 ---
 
@@ -278,7 +278,7 @@ sum(rate(http_requests_total{route!="/metrics"}[1m])) by (route)
 sum(rate(http_requests_total{route!="/metrics",status=~"4..|5.."}[1m])) by (status)
 ```
 
-![img_1.png](img_1.png)
+![img_1.png](docs/img_1.png)
 
 ---
 
@@ -292,7 +292,7 @@ histogram_quantile(0.95,
 )
 ```
 
-![img_2.png](img_2.png)
+![img_2.png](docs/img_2.png)
 
 ---
 
